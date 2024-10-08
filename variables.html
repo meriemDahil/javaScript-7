@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variable Course</title>
+    <script>
+        let variable1 = 21; 
+        variable1 = 3;
+        console.log(variable1);
+        console.log(variable1 + 3);
+        let result =variable1 *2;
+        console.log(`the result is ${result}`);
+        const  message = 'hello there!!'
+        console.log(message);
+        let cart = 0;
+    </script>
+  </head>
+<body>
+    <h3>Cart Quantity</h3>
+    <button onclick="
+        console.log(cart);
+    ">Show Quantity</button>
+    <button onclick="
+        cart=cart+1;
+    ">Add to cart</button>
+    <button onclick="
+      cart+=2;
+    ">+2</button>
+    <button onclick="
+        cart=cart+3;
+    ">+3</button>
+    <button onclick="
+        cart=0;
+        console.log('Cart Quantity Resest')
+    ">Resest Cart</button>
+</body>
+</html>
